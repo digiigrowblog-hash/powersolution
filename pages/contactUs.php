@@ -68,7 +68,7 @@
             <div>
               <p class="text-xs font-bold text-gray-400 uppercase">Call Support</p>
               <p class="text-lg font-bold text-nucleusBlue">+91 9076262727</p>
-              <p class="text-sm text-gray-500">Mon–sun: 24 hours service</p>
+              <p class="text-sm text-gray-500">Mon–sun: 10:00 am - 8:00 pm</p>
             </div>
           </div>
 
@@ -174,13 +174,21 @@
   </div>
 
   <!-- MAP PLACEHOLDER -->
-  <div class="mt-16 bg-white rounded-[3rem] p-4 shadow-xl h-96 relative flex items-center justify-center">
-    <div class="text-center">
-      <i class="fa-solid fa-location-dot text-5xl text-nucleusTeal mb-4"></i>
-      <p class="text-gray-500 font-bold uppercase">Interactive Map Location</p>
-      <p class="text-sm text-gray-400">Google Maps API placeholder</p>
-    </div>
+
+  <!-- MAP -->
+  <div class="mt-16 bg-white rounded-[3rem] p-4 shadow-xl h-96 relative overflow-hidden">
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2940.8783147540385!2d73.00195847387506!3d19.08093925182008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3a258fda5f7%3A0xef313111a8be7871!2sNUCLEUS%20POWER%20SOLUTIONS!5e1!3m2!1sen!2sus!4v1768279971421!5m2!1sen!2sus"
+      width="100%" 
+      height="100%" 
+      style="border:0; border-radius: 1.5rem;"
+      allowfullscreen="" 
+      title="nucleus power solutions map direction"
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </div>
+
 </div>
 
 <?php include __DIR__ . '/../component/footer.php'; ?>

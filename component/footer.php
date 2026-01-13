@@ -20,8 +20,9 @@
         </a>
 
         <p class="text-gray-400 text-sm leading-relaxed">
-          Providing next-generation energy storage solutions since 2010. We power everything
-          from your daily commute to critical industrial infrastructure.
+          Established in the year 2019 at Navi Mumbai, Maharashtra.
+          We Nucleus Power Solutions are a Proprietorship based firm,has 
+          grown into a trusted provider of advanced energy storage and conversion systems.
         </p>
 
         <div class="flex space-x-4">
@@ -42,9 +43,9 @@
         <h3 class="font-bold text-lg mb-6">Quick Links</h3>
         <ul class="space-y-4 text-gray-400 text-sm">
           <li><a href="/" class="hover:text-white transition">Home</a></li>
-          <li><a href="/products.php" class="hover:text-white transition">Products</a></li>
-          <li><a href="/about.php" class="hover:text-white transition">About Us</a></li>
-          <li><a href="/contactus.php" class="hover:text-white transition">Contact</a></li>
+          <li><a href="/pages/product.php" class="hover:text-white transition">Products</a></li>
+          <li><a href="/pages/aboutUs.php" class="hover:text-white transition">About Us</a></li>
+          <li><a href="/pages/contactUs.php" class="hover:text-white transition">Contact</a></li>
         </ul>
       </div>
 
@@ -65,11 +66,12 @@
         <ul class="space-y-4 text-gray-400 text-sm">
           <li class="flex items-start space-x-3">
             <i class="fa-solid fa-location-dot text-teal-500 mt-1"></i>
-            <span>123 Battery Avenue, Energy District, Tech City, 45201</span>
+            <span> 1st Floor, 106, Plot No.18,Nilesh Chamber Annexe, Sector-19, 
+              Vashi, Navi Mumbai, Navi Mumbai, Thane-400703, Maharashtra, India</span>
           </li>
           <li class="flex items-center space-x-3">
             <i class="fa-solid fa-phone text-teal-500"></i>
-            <span>+1 (800) NUCLEUS-PWR</span>
+            <span>+91 9076262727</span>
           </li>
           <li class="flex items-center space-x-3">
             <i class="fa-solid fa-envelope text-teal-500"></i>

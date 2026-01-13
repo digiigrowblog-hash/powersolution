@@ -54,7 +54,7 @@
 
 <!-- HERO -->
 <section class="relative bg-nucleusBlue py-28 overflow-hidden">
-  <div class="absolute -top-24 -right-24 w-96 h-96 bg-nucleusTeal/20 rounded-full blur-3xl"></div>
+  <div class="absolute -top-24 -right-24 w-96 h-96 bg-nucleusTeal/20 rounded-full blur-3xl overflow-hidden"></div>
   <div class="absolute bottom-0 left-0 w-72 h-72 bg-nucleusPink/10 rounded-full blur-3xl"></div>
 
   <div class="max-w-5xl mx-auto px-6 text-center relative z-10 animate-fadeUp">
@@ -69,7 +69,7 @@
 
 <!-- INTRO -->
 <section class="py-20">
-  <div class="max-w-5xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+  <div class="max-w-5xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center ">
     
     <div class="animate-fadeUp">
       <h2 class="text-3xl font-bold text-nucleusBlue mb-6">
@@ -88,17 +88,18 @@
       </p>
     </div>
 
-    <div class="relative animate-float">
+    <div class="relative animate-float overflow-hidden rounded-2xl">
       <img
         src="../images/aboutus.jpeg"
         alt="Energy Infrastructure"
-        class="rounded-[2.5rem] shadow-2xl border border-gray-100"
+        class="rounded-2xl shadow-2xl border border-gray-100"
       />
-      <div class="absolute top-12 -right-16 bg-white p-5 rounded-2xl shadow-xl flex items-center space-x-3">
+      <div class="absolute z-10 lg:top-8 lg:right-6 md:top-16 md:right-16 sm:top-top-20 sm:right-20 top-10 right-6 
+      bg-white sm:p-5 p-1.5 rounded-2xl shadow-xl flex items-center sm:space-x-3 space-x-2">
         <i class="fa-solid fa-bolt text-nucleusTeal text-2xl"></i>
         <div>
           <p class="text-xs uppercase text-gray-400 font-bold">Trusted By</p>
-          <p class="font-bold text-nucleusBlue">10000+ Customers</p>
+          <p class="text-sm sm:text-base font-bold text-nucleusBlue">10000+ Customers</p>
         </div>
       </div>
     </div>
@@ -107,7 +108,7 @@
 </section>
 
 <!-- VALUES -->
-<section class="py-20 bg-gray-50">
+<section class="py-20 bg-gray-50 overflow-hidden">
   <div class="max-w-6xl mx-auto px-6 text-center mb-16">
     <h2 class="text-3xl font-bold text-nucleusBlue mb-4">What Drives Us</h2>
     <p class="text-gray-500 max-w-2xl mx-auto">
@@ -115,7 +116,7 @@
     </p>
   </div>
 
-  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10 overflow-hidden">
 
     <div class="bg-white p-10 rounded-3xl shadow-xl text-center animate-fadeUp">
       <i class="fa-solid fa-bullseye text-nucleusOrange text-4xl mb-6"></i>
