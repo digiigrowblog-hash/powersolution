@@ -21,7 +21,9 @@ $data = [
                     "voltage" => "12 V",
                     "usage_application" => "Inverter Battery",
                     "country_of_origin" => "Made in India",
-                    "capacity" => "100 Ah"
+                    "capacity" => "100 Ah",
+                    "image1" => "/images/IB/IB.webp",
+                    "image2" => "/images/IB/IB2.webp",
                 ]
                 ,
                 [
@@ -34,7 +36,9 @@ $data = [
                     "voltage" => "12 V",
                     "battery_type" => "Short Tubular Battery",
                     "protection" => "Over Current Protection",
-                    "usage_application" => "Industrial"
+                    "usage_application" => "Industrial",
+                    "image1" => "/images/IB/IB3.webp",
+                    "image2" => "/images/IB/IB4.webp",
                 ]
                 ,
                 [
@@ -45,7 +49,9 @@ $data = [
                     "warranty" => "24 Months",
                     "brand" => "Exide",
                     "voltage" => "12 V",
-                    "model_number" => "SMF BATTARY"
+                    "model_number" => "SMF BATTARY",
+                    "image1" => "/images/IB/IB5.webp",
+                    "image2" => "/images/IB/IB6.webp",
                 ]
                 ,
                 [
@@ -57,7 +63,9 @@ $data = [
                     "voltage" => "24 V",
                     "model_number" => "NA",
                     "electrolyte_level_indicator" => "Yes",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/IB/IB7.webp",
+                    "image2" => "/images/IB/IB8.webp",
                 ]
                 ,
                 [
@@ -69,7 +77,9 @@ $data = [
                     "warranty" => "36 Months",
                     "battery_type" => "Tubular Battery",
                     "voltage" => "12 V",
-                    "usage_application" => "Industrial"
+                    "usage_application" => "Industrial",
+                    "image1" => "/images/IB/IB9.webp",
+                    "image2" => "/images/IB/IB10.webp",
                 ],
                 [
                     'product_id' => '6',
@@ -82,6 +92,8 @@ $data = [
                     "battery_type" => "Short Tubular Battery",
                     "protection" => "Over Current Protection",
                     "usage_application" => "Industrial",
+                    "image1" => "/images/IB/IB11.webp",
+                    "image2" => "/images/IB/IB12.webp",
                 ],
                 [
                     'product_id' => '7',
@@ -92,7 +104,9 @@ $data = [
                     "battery_type" => "Lithium-Ion",
                     "warranty" => "3 Years",
                     "country_of_origin" => "Made in India",
-                    "frequency" => "50 Hz"
+                    "frequency" => "50 Hz",
+                    "image1" => "/images/IB/IB13.webp",
+                    "image2" => "/images/IB/IB14.webp",
                 ],
                 [
                     'product_id' => '8',
@@ -102,7 +116,9 @@ $data = [
                     "warranty" => "36 Months",
                     "voltage" => "12 V",
                     "color" => "Black",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/IB/IB15.webp",
+                    "image2" => "/images/IB/IB16.webp",
                 ]
             ]
         ]
@@ -123,7 +139,9 @@ $data = [
                     "brand" => "Exide",
                     "voltage" => "12 V",
                     "model_number" => "EXIDE SMF",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/ESB/ESB.webp",
+
                 ]
                 ,
                 [
@@ -134,7 +152,8 @@ $data = [
                     "warranty" => "48 Months",
                     "model_name_number" => "EXIDE",
                     "dimensions" => "535 / 215 / 480",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/ESB/ESB2.webp",
                 ]
                 ,
                 [
@@ -144,7 +163,9 @@ $data = [
                     "battery_brand" => "Exide",
                     "color" => "Black",
                     "usage_application" => "Home, Office",
-                    "cycle_life_of_battery" => "36 Months"
+                    "cycle_life_of_battery" => "36 Months",
+                    "image1" => "/images/ESB/ESB3.webp",
+
                 ]
                 ,
                 [
@@ -156,7 +177,9 @@ $data = [
                     "voltage" => "12 V",
                     "color" => "Black",
                     "backup_time" => "2 Hours",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/ESB/ESB4.webp",
+
                 ]
                 ,
                 [
@@ -168,7 +191,9 @@ $data = [
                     "warranty" => "36 Months",
                     "battery_type" => "Tubular Battery",
                     "voltage" => "12 V",
-                    "usage_application" => "Office"
+                    "usage_application" => "Office",
+                    "image1" => "/images/ESB/ESB5.webp",
+
                 ],
                 [
                     'product_id' => '6',
@@ -179,7 +204,9 @@ $data = [
                     "warranty" => "36 Months",
                     "battery_type" => "Tubular Battery",
                     "usage_application" => "Industrial",
-                    "output_type" => "Quad, Triple"
+                    "output_type" => "Quad, Triple",
+                    "image1" => "/images/ESB/ESB6.webp",
+
 
                 ],
                 [
@@ -191,19 +218,23 @@ $data = [
                     "voltage" => "12 V",
                     "battery_type" => "Tubular Battery",
                     "country_of_origin" => "Made in India",
-                    "capacity" => "100 Ah"
+                    "capacity" => "100 Ah",
+                    "image1" => "/images/ESB/ESB7.webp",
+
                 ],
-                [
-                    'product_id' => '8',
-                    'product_name' => 'Exide 18 Ah Powersafe Plus SMF Battery',
-                    'product_price' => '₹ 2,763/Piece',
-                    "warranty" => "36 Months",
-                    "brand" => "Exide",
-                    "voltage" => "12 V",
-                    "battery_type" => "Tubular Battery",
-                    "country_of_origin" => "Made in India",
-                    "capacity" => "100 Ah"
-                ]
+                // [
+                //     'product_id' => '8',
+                //     'product_name' => 'Exide 18 Ah Powersafe Plus SMF Battery',
+                //     'product_price' => '₹ 2,763/Piece',
+                //     "warranty" => "36 Months",
+                //     "brand" => "Exide",
+                //     "voltage" => "12 V",
+                //     "battery_type" => "Tubular Battery",
+                //     "country_of_origin" => "Made in India",
+                //     "capacity" => "100 Ah",
+                //     "image1" => "/images/ESB/ESB8.webp",
+
+                // ]
             ]
         ]
 
@@ -228,7 +259,9 @@ $data = [
                     "filled_weight" => "2.2 Kg",
                     "dimensions" => "151 mm x 66 mm x 95 mm (L x W x H)",
                     "ip_rating" => "IP65",
-                    "product_capacity" => "7 Ah"
+                    "product_capacity" => "7 Ah",
+                    "image1" => "/images/AQB/AQB.webp",
+                    "image2" => "/images/AQB/AQB2.webp",
 
                 ]
                 ,
@@ -244,7 +277,9 @@ $data = [
                     "model_number" => "Quanta 12AL026",
                     "filled_weight" => "9.0 Kg",
                     "dimensions" => "167 mm x 126 mm x 175 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB3.webp",
+                    "image2" => "/images/AQB/AQB4.webp",
 
                 ]
                 ,
@@ -260,7 +295,9 @@ $data = [
                     "model_number" => "Quanta 12AL120",
                     "filled_weight" => "36.6 Kg",
                     "dimensions" => "393 mm x 173 mm x 240 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB5.webp",
+                    "image2" => "/images/AQB/AQB6.webp",
 
                 ]
                 ,
@@ -276,7 +313,9 @@ $data = [
                     "model_number" => "Quanta 12AL150",
                     "filled_weight" => "45.0 Kg",
                     "dimensions" => "453 mm x 173 mm x 251 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB7.webp",
+                    "image2" => "/images/AQB/AQB8.webp",
 
                 ]
                 ,
@@ -289,7 +328,9 @@ $data = [
                     "voltage" => "12 V",
                     "model_number" => "SA",
                     "dimensions" => "393 x 173 x 221 mm",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/AQB/AQB9.webp",
+
 
                 ],
                 [
@@ -304,7 +345,9 @@ $data = [
                     "model_number" => "Quanta 12AL100",
                     "filled_weight" => "32.5 Kg",
                     "dimensions" => "393 mm x 173 mm x 221 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB10.webp",
+                    "image2" => "/images/AQB/AQB11.webp",
 
                 ],
                 [
@@ -319,7 +362,9 @@ $data = [
                     "model_number" => "Quanta 12AL012",
                     "filled_weight" => "4.2 Kg",
                     "dimensions" => "151 mm x 99 mm x 95 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB12.webp",
+                    "image2" => "/images/AQB/AQB13.webp",
                 ],
                 [
                     'product_id' => '8',
@@ -333,7 +378,9 @@ $data = [
                     "model_number" => "Quanta 12AL042",
                     "filled_weight" => "14.0 Kg",
                     "dimensions" => "199 mm x 167 mm x 175 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB14.webp",
+                    "image2" => "/images/AQB/AQB15.webp",
 
                 ],
                 [
@@ -348,7 +395,9 @@ $data = [
                     "model_number" => "Quanta 12AL018",
                     "filled_weight" => "6.5 Kg",
                     "dimensions" => "181 mm x 78 mm x 166 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB16.webp",
+                    "image2" => "/images/AQB/AQB17.webp",
 
                 ],
                 [
@@ -363,7 +412,9 @@ $data = [
                     "model_number" => "Quanta 12AL065",
                     "filled_weight" => "20.0 Kg",
                     "dimensions" => "351 mm x 167 mm x 175 mm (L x W x H)",
-                    "ip_rating" => "IP65"
+                    "ip_rating" => "IP65",
+                    "image1" => "/images/AQB/AQB18.webp",
+                    "image2" => "/images/AQB/AQB19.webp",
                 ]
             ]
         ]
@@ -387,7 +438,9 @@ $data = [
                     "voltage" => "12 V",
                     "usage_application" => "For Automobile Battery",
                     "backup_time" => "20 Min",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/TB/TB.webp",
+
                 ]
                 ,
                 [
@@ -398,7 +451,8 @@ $data = [
                     "brand" => "Luminous",
                     "country_of_origin" => "Made in India",
                     "battery" => "NA",
-                    "location" => "Navi Mumbai, Mumbai"
+                    "location" => "Navi Mumbai, Mumbai",
+                    "image1" => "/images/TB/TB2.webp",
                 ]
                 ,
                 [
@@ -411,7 +465,8 @@ $data = [
                     "battery_series" => "INVATUBULAR",
                     "voltage" => "12 V",
                     "usage_application" => "Inverter Battery",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/TB/TB3.webp",
                 ]
                 ,
                 [
@@ -424,7 +479,8 @@ $data = [
                     "color" => "White",
                     "model_name_number" => "EXIDE",
                     "country_of_origin" => "Made in India",
-                    "capacity" => "150 Ah"
+                    "capacity" => "150 Ah",
+                    "image1" => "/images/TB/TB4.webp",
                 ]
                 ,
                 [
@@ -435,7 +491,8 @@ $data = [
                     "warranty" => "3 Years",
                     "model_name_number" => "Exide",
                     "weight_kg" => "62 kg",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/TB/TB5.webp",
                 ],
                 [
                     'product_id' => '6',
@@ -448,7 +505,8 @@ $data = [
                     "voltage" => "12 V",
                     "usage_application" => "Automobile Battery",
                     "backup_time" => "20 Min",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/TB/TB6.webp",
                 ],
             ]
         ]
@@ -465,42 +523,78 @@ $data = [
                     'product_id' => '1',
                     'product_name' => 'Okaya Smf Battery',
                     'product_price' => '₹ 14,200/Piece',
+                    "capacity" => "100 Ah",
+                    "brand" => "Luminous",
+                    "country_of_origin" => "Made in India",
+                    "color" => "Black",
+                    "usage_application" => "Industrial",
+                    "available_for" => "Automation Applications",
+                    "operating_system" => "For Windows",
+                    "image1" => "/images/UB/UB.webp",
                 ]
                 ,
                 [
                     'product_id' => '2',
                     'product_name' => 'Exide 12 Ah Powersafe Plus SMF Battery',
                     'product_price' => '₹ 2,000/Piece',
+                    "capacity" => "12 Ah",
+                    "warranty" => "36 Months",
+                    "brand" => "Exide",
+                    "voltage" => "12 V",
+                    "model_number" => "EP 12-12",
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UB/UB2.webp",
                 ]
                 ,
                 [
                     'product_id' => '3',
                     'product_name' => 'Exide Generator Batteries',
                     'product_price' => '₹ 7,499/Piece',
+                    "battery_brand" => "Exide",
+                    "color" => "Black",
+                    "warranty" => "36 Months",
+                    "usage_application" => "Industrial",
+                    "ah_efficiency" => "60-70",
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UB/UB3.webp",
                 ]
                 ,
                 [
                     'product_id' => '4',
-                    'product_name' => 'Exide 120 Ah Powersafe Plus SMF Battery',
-                    'product_price' => '₹ 5,220/Piece',
+                    'product_name' => 'Exide 12 Ah Powersafe Plus SMF Battery',
+                    'product_price' => '₹ 2,000/Piece',
+                    "capacity" => "120 Ah",
+                    "warranty" => "24 Months",
+                    "brand" => "Exide",
+                    "voltage" => "12 V",
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UB/UB4.webp",
                 ]
                 ,
                 [
                     'product_id' => '5',
-                    'product_name' => 'Microtek 10kva On Line Ups',
-                    'product_price' => '₹ 11,990/Piece',
+                    'product_name' => 'Exide Generator Batteries',
+                    'product_price' => '₹ 7,499/Piece',
+                    "rated_capacity" => "1000 VA",
+                    "usage_application" => "Industrial",
+                    "protection" => "Over Voltage",
+                    "warranty" => "3 Years",
+                    "backup_time" => "20 Min",
+                    "form_factor" => "Rack Mounted",
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UB/UB5.webp",
                 ],
                 [
                     'product_id' => '6',
-                    'product_name' => '12V 100Ah Amaron Quanta SMF UPS Battery',
-                    'product_price' => '₹ 7,500/Piece',
+                    'product_name' => 'Exide 120 Ah Powersafe Plus SMF Battery',
+                    'product_price' => '₹ 5,220/Piece',
+                    "capacity" => "12 Ah",
+                    "warranty" => "24 Months",
+                    "brand" => "Exide",
+                    "voltage" => "12 V",
+                    "model_number" => "SMF BATTARY",
+                    "image1" => "/images/UB/UB6.webp",
                 ],
-                [
-                    'product_id' => '7',
-                    'product_name' => '9 Ah Exide Powersafe Plus SMF Battery',
-                    'product_price' => '₹ 6,900/Piece',
-                ],
-
             ]
         ]
 
@@ -522,7 +616,8 @@ $data = [
                     "color" => "Black",
                     "usage_application" => "Industrial",
                     "available_for" => "Automation Applications",
-                    "operating_system" => "For Windows"
+                    "operating_system" => "For Windows",
+                    "image1" => "/images/SMF/SMFB.webp",
                 ]
                 ,
                 [
@@ -534,7 +629,8 @@ $data = [
                     "brand" => "Exide",
                     "voltage" => "12 V",
                     "model_number" => "EP 12-12",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                     "image1" => "/images/SMF/SMFB2.webp",
                 ]
                 ,
                 [
@@ -546,7 +642,8 @@ $data = [
                     "warranty" => "36 Months",
                     "usage_application" => "Industrial",
                     "ah_efficiency" => "60-70",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                     "image1" => "/images/SMF/SMFB3.webp",
                 ]
                 ,
                 [
@@ -557,7 +654,8 @@ $data = [
                     "warranty" => "24 Months",
                     "brand" => "Exide",
                     "voltage" => "12 V",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                     "image1" => "/images/SMF/SMFB4.webp",
                 ],
 
             ]
@@ -579,7 +677,8 @@ $data = [
                     "brand" => "Exide",
                     "voltage" => "12 V",
                     "model_number" => "SMF BATTARY",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/INDB/INDB.webp",
                 ]
                 ,
                 [
@@ -590,7 +689,8 @@ $data = [
                     "warranty" => "24 Months",
                     "brand" => "Exide",
                     "voltage" => "12 V",
-                    "model_number" => "SMF BATTARY"
+                    "model_number" => "SMF BATTARY",
+                    "image1" => "/images/INDB/INDB2.webp",
 
                 ]
 
@@ -617,7 +717,8 @@ $data = [
                     "output_frequency" => "60 Hz",
                     "design" => "Portable",
                     "full_load_output_current" => "10 Ampere",
-                    "ambient_temperature" => "46 Degree C"
+                    "ambient_temperature" => "46 Degree C",
+                    "image1" => "/images/ETB/ETB.webp",
                 ]
 
             ]
@@ -628,7 +729,7 @@ $data = [
     [
         [
             'product_id' => '1',
-            'product_name' => 'Microtek 10kva On Line Ups',
+            'product_name' => 'ONLINE UPS',
             'product_detail' => 'We at Nucleus Power Solutions offer complete range of ONLINE UPS 
                 Products which include Hph Series, Three Phase UPS, 160-200 Kw, R Series, Single Phase 
                 Ups, 1/2/3 Kva Delta Online UPS, Dph Series, Modular Ups, 50 - 300/500/600kva, 
@@ -656,7 +757,10 @@ $data = [
                         "output_voltage" => "240 V",
                         "frequency" => "50 Hz",
                         "output_current" => "16 A",
-                        "ups_capacity" => "225 KVA"
+                        "ups_capacity" => "225 KVA",
+                        "image1" => "/images/OUPS/UPS.webp",
+                        "image2" => "/images/OUPS/UPS2.webp",
+                        
                     ],
                     [
                         'product_id' => '2',
@@ -677,7 +781,9 @@ $data = [
                         "form_factor" => "Tower Model",
                         "output_voltage" => "120 V",
                         "frequency" => "50 Hz",
-                        "capacity_kva" => "10 KVA"
+                        "capacity_kva" => "10 KVA",
+                        "image1" => "/imagesOUPS/OUPS/UPS3.webp",
+                        "image2" => "/imagesOUPS/OUPS/UPS4.webp",
                     ],
                     [
                         'product_id' => '3',
@@ -689,7 +795,9 @@ $data = [
                         "warranty" => "3 Years",
                         "backup_time" => "20 Min",
                         "form_factor" => "Rack Mounted",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS5.webp",
+
                     ],
                     [
                         'product_id' => '4',
@@ -705,7 +813,10 @@ $data = [
                         "dimensions" => "13.4 cm (W) x 43.3 cm (H) x 70.6 cm (D)",
                         "weight" => "18.8 Kg",
                         "backup_time" => "25 Min",
-                        "usage_application" => "Computer"
+                        "usage_application" => "Computer",
+                        "image1" => "/images/OUPS/UPS6.webp",
+
+
 
                     ],
                     [
@@ -722,7 +833,9 @@ $data = [
                         "weight" => "16.2 Kg",
                         "backup_time" => "20 Min",
                         "charging_current" => "8 A",
-                        "warranty" => "2 Years"
+                        "warranty" => "2 Years",
+                        "image1" => "/images/OUPS/UPS7.webp",
+                        "image2" => "/images/OUPS/UPS8.webp",
                     ],
                     [
                         'product_id' => '6',
@@ -739,7 +852,9 @@ $data = [
                         "weight" => "20 Kg",
                         "backup_time" => "20 Min",
                         "usage_application" => "Computer",
-                        "warranty" => "2 Years"
+                        "warranty" => "2 Years",
+                        "image1" => "/images/OUPS/UPS9.webp",
+                        "image2" => "/images/OUPS/UPS10.webp",
                     ],
                     [
                         'product_id' => '7',
@@ -761,7 +876,9 @@ $data = [
                         "form_factor" => "Tower Model",
                         "output_voltage" => "230 V",
                         "frequency" => "50 Hz",
-                        "capacity_kva" => "2 KVA"
+                        "capacity_kva" => "2 KVA",
+                        "image1" => "/images/OUPS/UPS11.webp",
+                        "image2" => "/images/OUPS/UPS12.webp",
                     ],
                     [
                         'product_id' => '8',
@@ -781,7 +898,9 @@ $data = [
                         "backup_time" => "20 Min",
                         "form_factor" => "Tower Model",
                         "output_voltage" => "240 V",
-                        "frequency" => "50 Hz"
+                        "frequency" => "50 Hz",
+                        "image1" => "/images/OUPS/UPS13.webp",
+                        "image2" => "/images/OUPS/UPS14.webp",
                     ],
                     [
                         'product_id' => '9',
@@ -801,10 +920,12 @@ $data = [
                         "backup_time" => "20 Min",
                         "form_factor" => "Tower Model",
                         "output_voltage" => "210 V",
-                        "frequency" => "50 Hz"
+                        "frequency" => "50 Hz",
+                        "image1" => "/images/OUPS/UPS15.webp",
+                        "image2" => "/images/OUPS/UPS16.webp",
                     ],
                     [
-                        'product_id' => '10',
+                        'producP_id' => '10',
                         'product_name' => 'UPS Repair And Maintenance Services',
                         'product_price' => '₹ 15,000/Piece',
                         "service_location" => "Navi Mumbai, Mumbai",
@@ -812,7 +933,9 @@ $data = [
                         "we_repair" => "Online UPS and Offline UPS",
                         "payment_term" => "100% Advance",
                         "service_type" => "DB UPS Repairing and Maintenance Services",
-                        "payment_mode" => "Offline and Online"
+                        "payment_mode" => "Offline and Online",
+                        "image1" => "/images/OUPS/UPS17.webp",
+                        "image2" => "/images/OUPS/UPS18.webp",
                     ],
                     [
                         'product_id' => '11',
@@ -823,7 +946,9 @@ $data = [
                         "usage_application" => "Power Backup",
                         "protection" => "Over Voltage",
                         "warranty" => "3 Years",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS19.webp",
+                        "image2" => "/images/OUPS/UPS20.webp",
                     ],
                     [
                         'product_id' => '12',
@@ -845,7 +970,9 @@ $data = [
                         "form_factor" => "Tower Model",
                         "output_voltage" => "230 V",
                         "frequency" => "50 Hz",
-                        "power" => "3 KVA"
+                        "power" => "3 KVA",
+                        "image1" => "/images/OUPS/UPS21.webp",
+                        "image2" => "/images/OUPS/UPS21.webp",
 
                     ],
                     [
@@ -859,7 +986,10 @@ $data = [
                         "backup_time" => "20 Mins",
                         "i_deal_in" => "New Only",
                         "usage_application" => "Industrial",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS23.webp",
+                        "image2" => "/images/OUPS/UPS24.webp",
+
                     ],
                     [
                         'product_id' => '14',
@@ -870,7 +1000,9 @@ $data = [
                         "configuration" => "3 Phase IN & 3 Phase OUT",
                         "form_factor" => "Rack Mounted",
                         "backup_time" => "20 Mins",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS25.webp",
+
                     ],
                     [
                         'product_id' => '15',
@@ -881,7 +1013,10 @@ $data = [
                         "configuration" => "3 Phase IN & 3 Phase OUT",
                         "form_factor" => "Rack Mounted",
                         "backup_time" => "20 Mins",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS26.webp",
+
+
                     ],
 
                     [
@@ -894,7 +1029,10 @@ $data = [
                         "input_voltage" => "12 V",
                         "i_deal_in" => "New Only",
                         "usage_application" => "Industrial",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS27.webp",
+
+
                     ],
                     [
                         'product_id' => '17',
@@ -905,7 +1043,10 @@ $data = [
                         "model_name_number" => "INX3KVA/72V",
                         "input_voltage" => "110–300 VAC",
                         "output_voltage" => "200 / 208 / 220 / 230 V",
-                        "configuration" => "1 Phase IN - 1 Phase OUT"
+                        "configuration" => "1 Phase IN - 1 Phase OUT",
+                        "image1" => "/images/OUPS/UPS28.webp",
+
+
                     ],
                     [
                         'product_id' => '18',
@@ -915,7 +1056,10 @@ $data = [
                         "brand" => "Delta",
                         "model_name_number" => "600 VA / 12 V LI UPS",
                         "usage_application" => "Commercial",
-                        "battery_type" => "Inbuilt 7 Ah - 12 V / 1 No"
+                        "battery_type" => "Inbuilt 7 Ah - 12 V / 1 No",
+                        "image1" => "/images/OUPS/UPS21.webp",
+                        "image2" => "/images/OUPS/UPS29.webp",
+
                     ],
                     [
                         'product_id' => '19',
@@ -926,7 +1070,10 @@ $data = [
                         "model_name_number" => "LEGEND 1600U",
                         "usage_application" => "Commercial",
                         "battery_type" => "12 V - 9 Ah / 2 Nos",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS30.webp",
+
+
                     ],
                     [
                         'product_id' => '20',
@@ -936,7 +1083,9 @@ $data = [
                         "usage_application" => "Commercial",
                         "weight" => "9 Kg",
                         "dimensions" => "282 x 145 x 220 mm",
-                        "warranty" => "3 Years"
+                        "warranty" => "3 Years",
+                        "image1" => "/images/UPS31.webp",
+
                     ],
                     [
                         'product_id' => '21',
@@ -956,7 +1105,9 @@ $data = [
                         "backup_time" => "25 Min",
                         "form_factor" => "Tower Model",
                         "output_voltage" => "230 V",
-                        "frequency" => "50 Hz"
+                        "frequency" => "50 Hz",
+                        "image1" => "/images/OUPS/UPS32.webp",
+
                     ],
                     [
                         'product_id' => '22',
@@ -975,7 +1126,10 @@ $data = [
                         "backup_time" => "25 Min",
                         "form_factor" => "Tower Model",
                         "output_voltage" => "192 V",
-                        "frequency" => "50 Hz"
+                        "frequency" => "50 Hz",
+                        "image1" => "/images/OUPS/UPS33.webp",
+
+
                     ],
                     [
                         'product_id' => '23',
@@ -986,7 +1140,10 @@ $data = [
                         "voltage" => "12 V",
                         "battery_type" => "Tubular Battery",
                         "country_of_origin" => "Made in India",
-                        "capacity" => "100 Ah"
+                        "capacity" => "100 Ah",
+                        "image1" => "/images/OUPS/UPS34.webp",
+                        "image2" => "/images/OUPS/UPS35.webp",
+
                     ],
                     [
                         'product_id' => '24',
@@ -997,7 +1154,10 @@ $data = [
                         "model_name_number" => "INX 2 KVA / 72 V",
                         "input_voltage" => "110 - 300 VAC",
                         "output_voltage" => "200 / 208 / 220 / 230 V",
-                        "configuration" => "1 Phase IN - 1 Phase OUT"
+                        "configuration" => "1 Phase IN - 1 Phase OUT",
+                        "image1" => "/images/OUPS/UPS36.webp",
+                        "image2" => "/images/OUPS/UPS37.webp",
+
                     ],
                     [
                         'product_id' => '25',
@@ -1009,7 +1169,10 @@ $data = [
                         "warranty" => "3 Years",
                         "backup_time" => "20 Min",
                         "form_factor" => "Rack Mounted",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS38.webp",
+                        "image2" => "/images/OUPS/UPS39.webp",
+
                     ],
                     [
                         'product_id' => '26',
@@ -1021,7 +1184,10 @@ $data = [
                         "warranty" => "3 Years",
                         "backup_time" => "20 Min",
                         "form_factor" => "Rack Mounted",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS40.webp",
+                        "image2" => "/images/OUPS/UPS41.webp",
+
                     ],
                     [
                         'product_id' => '27',
@@ -1032,7 +1198,9 @@ $data = [
                         "warranty" => "3 Years",
                         "backup_time" => "20 Min",
                         "form_factor" => "Rack Mounted",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS42.webp",
+                        
                     ],
                     [
                         'product_id' => '28',
@@ -1044,7 +1212,8 @@ $data = [
                         "warranty" => "3 Years",
                         "backup_time" => "20 Min",
                         "form_factor" => "Rack Mounted",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS43.webp",
 
                     ],
                     [
@@ -1057,7 +1226,9 @@ $data = [
                         "protection" => "Over Voltage",
                         "warranty" => "3 Years",
                         "bypass_voltage" => "Built-in Bypass",
-                        "country_of_origin" => "Made in India"
+                        "country_of_origin" => "Made in India",
+                        "image1" => "/images/OUPS/UPS44.webp",
+                        "image2" => "/images/OUPS/UPS45.webp",
 
                     ]
 
@@ -1081,7 +1252,9 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPS/UPS.webp",
+                    "image2" => "/images/UPS/UPS2.webp",
                 ],
                 [
                     'product_id' => '2',
@@ -1092,7 +1265,9 @@ $data = [
                     "model_name_number" => "INX 1 KVA / 36 V",
                     "input_voltage" => "110 - 300 VAC",
                     "output_voltage" => "200 / 208 / 220 / 230 V",
-                    "configuration" => "1 Phase IN - 1 Phase OUT"
+                    "configuration" => "1 Phase IN - 1 Phase OUT",
+                    "image1" => "/images/UPS/UPS3.webp",
+                    "image2" => "/images/UPS/UPS4.webp",
                 ],
                 [
                     'product_id' => '3',
@@ -1102,7 +1277,9 @@ $data = [
                     "model_name_number" => "SDE",
                     "usage_application" => "Commercial",
                     "ac_mode_indicator" => "NA",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPS/UPS5.webp",
+                    "image2" => "/images/UPS/UPS6.webp",
                 ],
                 [
                     'product_id' => '4',
@@ -1113,7 +1290,8 @@ $data = [
                     "usage_application" => "Industrial",
                     "phase" => "Single Phase",
                     "protection" => "Over Voltage",
-                    "warranty" => "1 Year"
+                    "warranty" => "1 Year",
+                    "image1" => "/images/UPS/UPS7.webp",
                 ],
                 [
                     'product_id' => '5',
@@ -1125,30 +1303,9 @@ $data = [
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
                     "frequency" => "50–60 Hz",
-                    "country_of_origin" => "Made in India"
-                ],
-                [
-                    'product_id' => '6',
-                    'product_name' => 'Delta R- Series UPS',
-                    'product_price' => '₹ 35,000/Piece',
-                    "capacity" => ">20 KVA",
-                    "brand" => "Delta",
-                    "configuration" => "3 Phase IN & 3 Phase OUT",
-                    "form_factor" => "Rack Mounted",
-                    "backup_time" => "20 Mins",
-                    "country_of_origin" => "Made in India"
-                ],
-                [
-                    'product_id' => '7',
-                    'product_name' => 'Delta Single Phase Ups',
-                    'product_price' => '₹ 35,000/Piece',
-                    "capacity" => "100 KVA",
-                    "usage_application" => "Industrial",
-                    "protection" => "Over Voltage",
-                    "warranty" => "3 Years",
-                    "backup_time" => "20 Min",
-                    "solar_power_compatible" => "Yes",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPS/UPS8.webp",
+
                 ],
             ]
         ]
@@ -1170,7 +1327,8 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPSSystem/UPSSystem.webp",
                 ],
                 [
                     'product_id' => '2',
@@ -1182,7 +1340,8 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPSSystem/UPSSystem2.webp",
                 ],
                 [
                     'product_id' => '3',
@@ -1195,7 +1354,8 @@ $data = [
                     "warranty" => "3 Years",
                     "solar_power_compatible" => "Yes",
                     "country_of_origin" => "Made in India",
-                    "configuration" => "3 Phase IN & 3 Phase OUT"
+                    "configuration" => "3 Phase IN & 3 Phase OUT",
+                    "image1" => "/images/UPSSystem/UPSSystem3.webp",
                 ],
                 [
                     'product_id' => '4',
@@ -1206,7 +1366,8 @@ $data = [
                     "model_name_number" => "INX 2KVA / 48 V",
                     "input_voltage" => "110 - 300 VAC",
                     "output_voltage" => "200 / 208 / 220 / 230 V",
-                    "configuration" => "1 Phase IN - 1 Phase OUT"
+                    "configuration" => "1 Phase IN - 1 Phase OUT",
+                    "image1" => "/images/UPSSystem/UPSSystem4.webp",
                 ],
                 [
                     'product_id' => '5',
@@ -1218,7 +1379,8 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPSSystem/UPSSystem5.webp",
 
                 ],
                 [
@@ -1230,7 +1392,8 @@ $data = [
                     "configuration" => "3 Phase IN & 3 Phase OUT",
                     "i_deal_in" => "New Only",
                     "usage_application" => "Industrial",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPSSystem/UPSSystem6.webp",
                 ],
                 [
                     'product_id' => '7',
@@ -1242,7 +1405,8 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "10 Min",
                     "solar_power_compatible" => "Yes",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/UPSSystem/UPSSystem7.webp",
                 ],
 
             ]
@@ -1267,7 +1431,9 @@ $data = [
                     "usage_application" => "Commercial",
                     "battery_type" => "Inbuilt 7 Ah - 12 V x 2 Nos",
                     "form_factor" => "Rack Mounted",
-                    "backup_time" => "20 Mins"
+                    "backup_time" => "20 Mins",
+                    "image1" => "/images/MUPS/MUPS.webp",
+                    "image2" => "/images/MUPS/MUPS2.webp",
                 ],
                 [
                     'product_id' => '2',
@@ -1278,7 +1444,8 @@ $data = [
                     "rated_input_power" => "4.5 KVA",
                     "display" => "LED",
                     "type" => "Square Wave Inverter",
-                    "capacity" => "1000 VA"
+                    "capacity" => "1000 VA",
+                    "image1" => "/images/MUPS/MUPS3.webp",
                 ],
                 [
                     'product_id' => '3',
@@ -1292,7 +1459,8 @@ $data = [
                     "type" => "Square Wave Inverter",
                     "input_current" => "12 A",
                     "mpp_tracker" => "Single",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/MUPS/MUPS4.webp",
 
                 ],
                 [
@@ -1305,7 +1473,8 @@ $data = [
                     "usage_application" => "Commercial",
                     "battery_type" => "12 V 7 Ah / 1 No",
                     "phase" => "1 Phase IN & 1 Phase",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/MUPS/MUPS5.webp",
                 ],
                 [
                     'product_id' => '5',
@@ -1316,7 +1485,8 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/MUPS/MUPS6.webp",
                 ],
                 [
                     'product_id' => '6',
@@ -1326,7 +1496,8 @@ $data = [
                     "brand" => "Microtek",
                     "features" => "UPS",
                     "portable" => "Yes",
-                    "is_rotatable" => "Rotatable"
+                    "is_rotatable" => "Rotatable",
+                    "image1" => "/images/MUPS/MUPS7.webp",
                 ],
             ]
         ]
@@ -1348,7 +1519,9 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/MIUPS/MIUPS.webp",
+                    "image2" => "/images/MIUPS/MIUPS2.webp",
                 ],
                 [
                     'product_id' => '2',
@@ -1359,7 +1532,8 @@ $data = [
                     "configuration" => "3 Phase IN & 3 Phase OUT",
                     "form_factor" => "Rack Mounted",
                     "usage_application" => "Industrial",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/MIUPS/MIUPS3.webp",
                 ],
                 [
                     'product_id' => '3',
@@ -1371,7 +1545,8 @@ $data = [
                     "warranty" => "3 Years",
                     "backup_time" => "20 Min",
                     "form_factor" => "Rack Mounted",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/MIUPS/MIUPS4.webp",
                 ],
                 [
                     'product_id' => '4',
@@ -1382,7 +1557,8 @@ $data = [
                     "model_name_number" => "INX 3 KVA / 72 V",
                     "input_voltage" => "110 - 300 VAC",
                     "output_voltage" => "200 / 208 / 220 / 230 V",
-                    "configuration" => "1 Phase IN - 1 Phase OUT"
+                    "configuration" => "1 Phase IN - 1 Phase OUT",
+                    "image1" => "/images/MIUPS/MIUPS5.webp",
                 ],
 
             ]
@@ -1405,7 +1581,8 @@ $data = [
                     "brand" => "Delta",
                     "model_name_number" => "INX 1 KVA / 24 V",
                     "input_voltage" => "110 - 300 VAC",
-                    "configuration" => "3 Phase IN - 1 Phase OUT"
+                    "configuration" => "3 Phase IN - 1 Phase OUT",
+                    "image1" => "/images/DUPS/DUPS.webp",
                 ],
                 [
                     'product_id' => '2',
@@ -1415,7 +1592,8 @@ $data = [
                     "brand" => "Delta",
                     "model_name_number" => "HPH - 20 K",
                     "input_voltage" => "380 V",
-                    "configuration" => "3 Phase IN - 3 Phase OUT"
+                    "configuration" => "3 Phase IN - 3 Phase OUT",
+                    "image1" => "/images/DUPS/DUPS2.webp",
                 ],
                 [
                     'product_id' => '3',
@@ -1426,7 +1604,8 @@ $data = [
                     "model_name_number" => "N - 1K",
                     "usage_application" => "Commercial",
                     "dimensions" => "145 / 320 / 225 mm",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/DUPS/DUPS3.webp",
                 ],
                 [
                     'product_id' => '4',
@@ -1436,7 +1615,8 @@ $data = [
                     "brand" => "Delta",
                     "model_name_number" => "RT 5 K",
                     "input_voltage" => "200 V",
-                    "audible_noise" => "48 dB"
+                    "audible_noise" => "48 dB",
+                    "image1" => "/images/DUPS/DUPS4.webp",
                 ],
                 [
                     'product_id' => '5',
@@ -1447,14 +1627,11 @@ $data = [
                     "discharge" => "3C",
                     "make" => "DMEGC",
                     "model" => "18650",
-                    "voltage" => "3.7 V"
+                    "voltage" => "3.7 V",
+                    "image1" => "/images/DUPS/DUPS5.webp",
                 ],
-
             ]
-
-
         ]
-
     ],
 
     [
@@ -1477,7 +1654,9 @@ $data = [
                     "is_iso_certified" => "ISO Certified",
                     "over_volt_protection" => "Available",
                     "current_type" => "AC",
-                    "country_of_origin" => "Made in India"
+                    "country_of_origin" => "Made in India",
+                    "image1" => "/images/OCSS/OCSS.webp",
+                    "image2" => "/images/OCSS/OCSS2.webp",
 
                 ]
                 ,
@@ -1490,17 +1669,14 @@ $data = [
                     "cooling_type" => "Air Cooled",
                     "rated_capacity" => "100 KVA",
                     "usage_application" => "Industrial",
-                    "control_type" => "Micro Controller"
+                    "control_type" => "Micro Controller",
+                    "image1" => "/images/OCSS/OCSS3.webp",
+                    "image2" => "/images/OCSS/OCSS4.webp",
 
                 ]
-
-
             ]
-
         ]
-
-        ,
-        [
+        ,[
             'product_id' => '2',
             'prodcut_name' => 'Automatic Voltage Stabilizer',
             'product_description' => 'Wholesaler of a wide range of products which include 
@@ -1514,11 +1690,13 @@ $data = [
                     "phase" => "Three Phase",
                     "brand" => "Nuclus",
                     "shipping_available" => "Yes, I Ship / Pick from my warehouse",
-                    "i_also_provide" => "Customisation in product, On Lease or Rent"
+                    "i_also_provide" => "Customisation in product, On Lease or Rent",
+                    "image1" => "/images/AVS/AVS.webp",
+                    "image2" => "/images/AVS/AVS2.webp",
 
                 ]
-                ,
-                [
+
+                ,[
                     'product_id' => '2',
                     'product_name' => 'Mahindra Powerol Genset',
                     'product_price' => '₹ 3,00,000/Piece',
@@ -1527,8 +1705,8 @@ $data = [
                     "phase" => "3 Phase",
                     "voltage" => "415 V",
                     "number_of_cylinder" => "6",
-                    "frequency" => "50 Hz"
-
+                    "frequency" => "50 Hz",
+                    "image1" => "/images/AVS/AVS3.webp",
                 ]
             ]
         ]
@@ -1554,7 +1732,9 @@ $data = [
                     "usage_application" => "Home",
                     "display" => "LED",
                     "technology" => "Square Wave",
-                    "number_of_battery" => "2"
+                    "number_of_battery" => "2",
+                    "image1" => "/images/MI/MI.webp",
+                    
 
                 ]
                 ,
@@ -1569,7 +1749,8 @@ $data = [
                     "voltage" => "150 V",
                     "display" => "LED",
                     "type" => "Square Wave Inverter",
-                    "mpp_tracker" => "Dual"
+                    "mpp_tracker" => "Dual",
+                    "image1" => "/images/MI/MI2.webp",
 
 
                 ]
@@ -1583,7 +1764,8 @@ $data = [
                     "rated_input_power" => "4.5 KVA",
                     "display" => "LED",
                     "type" => "Square Wave Inverter",
-                    "capacity" => "1000 VA"
+                    "capacity" => "1000 VA",
+                    "image1" => "/images/MI/MI3.webp",
 
                 ]
                 ,
@@ -1597,7 +1779,8 @@ $data = [
                     "rated_input_power" => "4.5 KVA",
                     "voltage" => "150 V",
                     "display" => "LED",
-                    "type" => "Square Wave Inverter"
+                    "type" => "Square Wave Inverter",
+                    "image1" => "/images/MI/MI4.webp",
 
                 ]
                 ,
@@ -1612,7 +1795,8 @@ $data = [
                     "voltage" => "130 V",
                     "display" => "LED",
                     "type" => "Square Wave Inverter",
-                    "output_frequency" => "50 Hz"
+                    "output_frequency" => "50 Hz",
+                    "image1" => "/images/MI/MI6.webp",
 
                 ]
                 ,
@@ -1624,25 +1808,11 @@ $data = [
                     "rated_input_power" => "3.5 KVA",
                     "voltage" => "150 V",
                     "display" => "Digital",
-                    "type" => "Pure Sine Wave Inverter"
+                    "type" => "Pure Sine Wave Inverter",
+                    "image1" => "/images/MI/MI7.webp",
 
                 ]
-                ,
-                [
-                    'product_id' => '7',
-                    'product_name' => 'Microtek Voltage Stabilizers',
-                    'product_price' => '₹ 8,000/Piece',
-                    "stabilizer_type" => "AC Stabilizers",
-                    "capacity" => "15 KVA",
-                    "phase" => "Three Phase",
-                    "brand" => "Microtek",
-                    "mounting_type" => "Wall Mounting",
-                    "shipping_available" => "Yes I Ship",
-                    "i_also_provide" => "On Lease or Rent",
-                    "country_of_origin" => "Made in India"
-
-                ]
-
+                ,               
             ]
         ]
 
