@@ -1,5 +1,4 @@
 <?php
-// index.php
 
 $products = [
   [
@@ -174,92 +173,89 @@ $products = [
     </div>
   </section>
 
-<!-- why choose nucleus -->
+  <!-- why choose nucleus -->
   <section class="py-24 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <h3 class="text-4xl font-bold text-nucleusBlue text-center">
-      Why Choose Nucleus Power?
-    </h3>
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-4xl font-bold text-nucleusBlue text-center">
+        Why Choose Nucleus Power?
+      </h3>
 
-    <div class="grid md:grid-cols-4 gap-8 mt-12">
-      <div class="text-center">
-        <i class="fa-solid fa-battery-full text-4xl text-nucleusTeal"></i>
-        <h4 class="font-bold mt-4">High Backup</h4>
-        <p class="text-sm text-gray-500 mt-2">
-          Designed for long-lasting power and deep discharge cycles.
-        </p>
-      </div>
+      <div class="grid md:grid-cols-4 gap-8 mt-12">
+        <div class="text-center">
+          <i class="fa-solid fa-battery-full text-4xl text-nucleusTeal"></i>
+          <h4 class="font-bold mt-4">High Backup</h4>
+          <p class="text-sm text-gray-500 mt-2">
+            Designed for long-lasting power and deep discharge cycles.
+          </p>
+        </div>
 
-      <div class="text-center">
-        <i class="fa-solid fa-industry text-4xl text-nucleusOrange"></i>
-        <h4 class="font-bold mt-4">Industrial Grade</h4>
-        <p class="text-sm text-gray-500 mt-2">
-          Built for demanding environments and heavy usage.
-        </p>
-      </div>
+        <div class="text-center">
+          <i class="fa-solid fa-industry text-4xl text-nucleusOrange"></i>
+          <h4 class="font-bold mt-4">Industrial Grade</h4>
+          <p class="text-sm text-gray-500 mt-2">
+            Built for demanding environments and heavy usage.
+          </p>
+        </div>
 
-      <div class="text-center">
-        <i class="fa-solid fa-shield text-4xl text-nucleusPink"></i>
-        <h4 class="font-bold mt-4">Certified Safety</h4>
-        <p class="text-sm text-gray-500 mt-2">
-          ISO-compliant manufacturing & strict quality checks.
-        </p>
-      </div>
+        <div class="text-center">
+          <i class="fa-solid fa-shield text-4xl text-nucleusPink"></i>
+          <h4 class="font-bold mt-4">Certified Safety</h4>
+          <p class="text-sm text-gray-500 mt-2">
+            ISO-compliant manufacturing & strict quality checks.
+          </p>
+        </div>
 
-      <div class="text-center">
-        <i class="fa-solid fa-headset text-4xl text-nucleusBlue"></i>
-        <h4 class="font-bold mt-4">After-Sales Support</h4>
-        <p class="text-sm text-gray-500 mt-2">
-          Reliable service network and quick response support.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
- 
-<!-- Testimonials / Trust Section (Huge credibility boost) -->
-<section class="py-24 bg-white">
-  <div class="max-w-5xl mx-auto px-6 text-center">
-    <h3 class="text-4xl font-bold text-nucleusBlue">
-      Trusted by Customers
-    </h3>
-
-    <div class="grid md:grid-cols-2 gap-8 mt-12">
-      <div class="p-8 border rounded-2xl">
-        <p class="text-gray-600">
-          “Excellent backup time and very reliable performance.
-          Highly recommended for solar installations.”
-        </p>
-        <p class="mt-4 font-bold">— Solar Installer, Gujarat</p>
-      </div>
-
-      <div class="p-8 border rounded-2xl">
-        <p class="text-gray-600">
-          “Using Nucleus batteries for industrial UPS systems
-          with zero complaints so far.”
-        </p>
-        <p class="mt-4 font-bold">— Factory Manager</p>
+        <div class="text-center">
+          <i class="fa-solid fa-headset text-4xl text-nucleusBlue"></i>
+          <h4 class="font-bold mt-4">After-Sales Support</h4>
+          <p class="text-sm text-gray-500 mt-2">
+            Reliable service network and quick response support.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Testimonials / Trust Section (Huge credibility boost) -->
+  <section class="py-24 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h3 class="text-4xl font-bold text-nucleusBlue">
+        Trusted by Customers
+      </h3>
+
+      <div class="grid md:grid-cols-2 gap-8 mt-12">
+        <div class="p-8 border rounded-2xl">
+          <p class="text-gray-600">
+            “Excellent backup time and very reliable performance.
+            Highly recommended for solar installations.”
+          </p>
+          <p class="mt-4 font-bold">— Solar Installer, Gujarat</p>
+        </div>
+
+        <div class="p-8 border rounded-2xl">
+          <p class="text-gray-600">
+            “Using Nucleus batteries for industrial UPS systems
+            with zero complaints so far.”
+          </p>
+          <p class="mt-4 font-bold">— Factory Manager</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- CTA -->
-   <section class="py-24 bg-nucleusBlue text-white text-center">
-  <h3 class="text-4xl font-bold">
-    Looking for the Right Battery Solution?
-  </h3>
-  <p class="mt-4 text-gray-300">
-    Talk to our experts and get the best power solution for your needs.
-  </p>
-  <a href="tel:9076262727"
-     class="inline-block mt-8 bg-nucleusTeal px-6 py-3 rounded-xl font-bold hover:bg-nucleusOrange">
-    Call Now
-  </a>
-</section>
-
+  <section class="py-24 bg-nucleusBlue text-white text-center">
+    <h3 class="text-4xl font-bold">
+      Looking for the Right Battery Solution?
+    </h3>
+    <p class="mt-4 text-gray-300">
+      Talk to our experts and get the best power solution for your needs.
+    </p>
+    <a href="tel:9076262727"
+      class="inline-block mt-8 bg-nucleusTeal px-6 py-3 rounded-xl font-bold hover:bg-nucleusOrange">
+      Call Now
+    </a>
+  </section>
 
   <?php include __DIR__ . '/component/footer.php'; ?>
 

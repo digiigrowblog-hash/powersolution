@@ -1,5 +1,5 @@
 <?php
-// contactus.php
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +45,8 @@
   <div class="max-w-4xl mx-auto px-6">
     <h1 class="text-5xl font-bold text-white mb-6">Let&apos;s Talk Power</h1>
     <p class="text-gray-300 text-lg">
-      Have questions about our products or need a bulk quotation? Our experts are ready to assist you.
+      Have questions about our products or need a bulk quotation? 
+      Our experts are ready to assist you.
     </p>
   </div>
 </section>

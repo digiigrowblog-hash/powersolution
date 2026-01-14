@@ -782,8 +782,8 @@ $data = [
                         "output_voltage" => "120 V",
                         "frequency" => "50 Hz",
                         "capacity_kva" => "10 KVA",
-                        "image1" => "/imagesOUPS/OUPS/UPS3.webp",
-                        "image2" => "/imagesOUPS/OUPS/UPS4.webp",
+                        "image1" => "/images/OUPS/UPS3.webp",
+                        "image2" => "/images/OUPS/UPS4.webp",
                     ],
                     [
                         'product_id' => '3',

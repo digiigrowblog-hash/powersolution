@@ -11,7 +11,7 @@ foreach ($data as $mainGroup) {
 
         $categoryName =
             $categoryBlock['product_name']
-            ?? $categoryBlock['prodcut_name']
+            ?? $categoryBlock['product_name']
             ?? 'General';
 
         if (!in_array($categoryName, $categories)) {
@@ -114,7 +114,59 @@ $filteredProducts = array_filter($products, function ($p) use ($search, $categor
             });
         });
     </script>
+
+    <!-- image light box -->
+
+    <script>
+function openImageModal(src) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+
+    modalImg.src = src;
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+}
+
+function closeImageModal() {
+    const modal = document.getElementById('imageModal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+}
+
+// Close on ESC key
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+        closeImageModal();
+    }
+});
+
+// Close when clicking outside image
+document.getElementById('imageModal')?.addEventListener('click', function (e) {
+    if (e.target === this) {
+        closeImageModal();
+    }
+});
+</script>
+
 </head>
+
+<!-- IMAGE PREVIEW MODAL -->
+<div id="imageModal"
+     class="fixed inset-0 bg-black/80 z-[9999] hidden items-center justify-center">
+
+    <!-- Close button -->
+    <button onclick="closeImageModal()"
+        class="absolute top-6 right-6 text-white text-3xl hover:text-gray-300">
+        &times;
+    </button>
+
+    <!-- Image -->
+    <img id="modalImage"
+         src=""
+         class="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl object-contain"
+         alt="Product Image">
+</div>
+
 
 <body class="bg-zinc-50 font-sans">
 
@@ -131,8 +183,7 @@ $filteredProducts = array_filter($products, function ($p) use ($search, $categor
     <div class="max-w-7xl mx-auto md:px-6 px-3 -mt-8 pb-24">
 
         <!-- FILTER BAR -->
-        <form method="GET"
-            class="bg-white rounded-2xl shadow-xl border p-6 flex flex-col md:flex-row gap-6 
+        <form method="GET" class="bg-white rounded-2xl shadow-xl border p-6 flex flex-col md:flex-row gap-6 
             items-center justify-between mb-12">
 
             <!-- Preserve category on search -->
@@ -147,8 +198,7 @@ $filteredProducts = array_filter($products, function ($p) use ($search, $categor
 
             <div class="flex flex-wrap gap-2">
                 <?php foreach ($categories as $cat): ?>
-                    <button type="submit" name="category" value="<?= htmlspecialchars($cat) ?>" 
-                    class="md:px-5 md:py-2 px-2 py-0.75 rounded-full sm:text-sm text-xs font-bold 
+                    <button type="submit" name="category" value="<?= htmlspecialchars($cat) ?>" class="md:px-5 md:py-2 px-2 py-0.75 rounded-full sm:text-sm text-xs font-bold 
                     <?= $category === $cat
                         ? 'bg-nucleusTeal text-white'
                         : 'bg-gray-100 text-gray-500'; ?>">
@@ -168,9 +218,16 @@ $filteredProducts = array_filter($products, function ($p) use ($search, $categor
                     md:flex-row hover:shadow-2xl transition">
 
                         <div class="md:w-2/5">
-                            <img src="<?= htmlspecialchars($product['image']); ?>" 
-                                class="w-full h-full object-cover"
-                                alt="<?= htmlspecialchars($product['name']); ?>">
+                            <!-- <img src="<?= htmlspecialchars($product['image']); ?>" 
+                                class="w-full max-w-[200px] h-full object-cover"
+                                alt="<?= htmlspecialchars($product['name']); ?>"> -->
+
+                            <img src="<?= htmlspecialchars($product['image']); ?>"
+                                alt="<?= htmlspecialchars($product['name']); ?>" 
+                                onclick="openImageModal(this.src)" 
+                                class=" md:w-[200px] w-full md:h-[200px] h-full object-cover cursor-pointer
+                                 hover:scale-105 transition-transform duration-300">
+
                         </div>
 
                         <div class="md:p-8 p-4 md:w-3/5 flex flex-col justify-between">
