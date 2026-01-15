@@ -35,6 +35,7 @@ $products = [
   <meta charset="UTF-8">
   <title>Nucleus Power Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
 
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
