@@ -1,3 +1,11 @@
+<?php if (isset($_GET['success'])): ?>
+<div class="max-w-4xl mx-auto mt-6 bg-green-100 text-green-800 p-4 rounded-xl text-center">
+    ✅ Message sent successfully. We’ll contact you soon!
+</div>
+<?php endif; ?>
+
+
+
 <?php
 
 ?>
@@ -79,7 +87,7 @@
             </div>
             <div>
               <p class="text-xs font-bold text-gray-400 uppercase">Email Us</p>
-              <p class="text-lg font-bold text-nucleusBlue">info@nucleuspower.com</p>
+              <p class="sm:text-lg text-sm font-bold text-nucleusBlue">info@nucleuspower.com</p>
               <p class="text-sm text-gray-500">Response within 24h</p>
             </div>
           </div>
@@ -119,18 +127,20 @@
 
     <!-- CONTACT FORM -->
     <div class="lg:col-span-2">
-      <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border">
+      <div class="bg-white md:p-10 p-5 md:rounded-[2.5rem] rounded-[1.7rem] shadow-xl border">
         <div class="flex items-center space-x-3 mb-8">
           <i class="fa-solid fa-message text-nucleusTeal"></i>
           <h2 class="text-2xl font-bold text-nucleusBlue">Send a Message</h2>
         </div>
 
-        <form action="submit-contact.php" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <form action="../component/contact.php" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <>
+
 
           <div>
             <label class="text-sm font-bold text-gray-600">Full Name</label>
             <input type="text" name="name" required
-              class="w-full px-5 py-4 rounded-xl bg-gray-50 border focus:ring-2 focus:ring-nucleusTeal">
+              class="w-full md:px-5 md:py-4 px-3 py-1.5 rounded-xl bg-gray-50 border focus:ring-2 focus:ring-nucleusTeal">
           </div>
 
           <div>
@@ -169,7 +179,7 @@
             </button>
           </div>
 
-        </form>
+        </>
       </div>
     </div>
   </div>
@@ -177,7 +187,7 @@
   <!-- MAP PLACEHOLDER -->
 
   <!-- MAP -->
-  <div class="mt-16 bg-white rounded-[3rem] p-4 shadow-xl h-96 relative overflow-hidden">
+  <div class="mt-16 bg-white rounded-[1.5rem] md:rounded-[3rem] md:p-4 p-3 shadow-xl h-96 relative overflow-hidden">
     <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2940.8783147540385!2d73.00195847387506!3d19.08093925182008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3a258fda5f7%3A0xef313111a8be7871!2sNUCLEUS%20POWER%20SOLUTIONS!5e1!3m2!1sen!2sus!4v1768279971421!5m2!1sen!2sus"
       width="100%" 

@@ -73,12 +73,12 @@ $products = [
 
         <div class="space-y-8">
           <div class="inline-flex items-center space-x-2 bg-nucleusTeal/10 
-           text-nucleusTeal px-4 py-2 rounded-full text-sm font-bold">
-            <i class="fa-solid fa-bolt"></i>
-            <span>NEXT GENERATION ENERGY STORAGE</span>
+           text-nucleusTeal sm:px-4 sm:py-2 px-2 py-1 rounded-full  font-bold">
+            <i class="fa-solid fa-bolt text-sm sm:text-base"></i>
+            <span class="text-sm sm:text-base">NEXT GENERATION ENERGY STORAGE</span>
           </div>
 
-          <h1 class="text-5xl md:text-7xl font-extrabold text-nucleusBlue leading-tight">
+          <h1 class="text-2xl md:text-7xl font-extrabold text-nucleusBlue leading-tight">
             Empowering
             <span class="text-transparent bg-clip-text 
           bg-gradient-to-r from-nucleusTeal via-nucleusOrange to-nucleusPink">
@@ -93,16 +93,17 @@ $products = [
           </p>
 
           <div class="flex gap-4">
-            <a href="/pages/product.php" class="bg-nucleusTeal text-white md:px-8 md:py-4 px-4 py-2 rounded-xl font-bold shadow-xl 
-             hover:bg-nucleusBlue transition flex items-center gap-2">
+            <a href="/pages/product.php" class="bg-nucleusTeal text-white md:px-8 md:py-4 
+               px-4 py-2 rounded-xl font-bold shadow-xl 
+               hover:bg-nucleusBlue transition flex items-center gap-2">
               Explore Products <i class="fa-solid fa-arrow-right"></i>
             </a>
-            <a href="/pages/aboutUs.php" class="bg-white border px-8 py-4 rounded-xl font-bold hover:bg-gray-50">
+            <a href="/pages/aboutUs.php" class="bg-white border md:px-8 md:py-4 px-4 py-2 rounded-xl font-bold hover:bg-gray-50">
               Learn More
             </a>
           </div>
 
-          <div class="flex items-center gap-8 pt-6">
+          <div class="flex items-center md:gap-8 gap-4 pt-6">
             <div>
               <p class="text-3xl font-bold text-nucleusBlue">7+</p>
               <p class="text-sm text-gray-500">Years Experience</p>
